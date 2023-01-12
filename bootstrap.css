@@ -8477,6 +8477,8 @@ textarea.form-control-lg {
   width: 100% !important;
 }
 
+.w-lg
+
 .w-auto {
   width: auto !important;
 }
@@ -8797,6 +8799,10 @@ textarea.form-control-lg {
   margin: auto !important;
 }
 
+.m-n1 {
+  margin: -0.25rem !important;
+}
+
 .mx-0 {
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -8887,6 +8893,10 @@ textarea.form-control-lg {
   margin-top: 1.5rem !important;
 }
 
+.mt-4-625 {
+  margin-top: 4.625rem !important;
+}
+
 .mt-5 {
   margin-top: 3rem !important;
 }
@@ -8947,8 +8957,28 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-6 {
+  margin-bottom: 3.5rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 4.5rem !important;
+}
+
+.mb-9 {
+  margin-bottom: 7.5rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
+}
+
+.mb-vh6 {
+  margin-bottom: 6vh !important;
 }
 
 .ms-0 {
@@ -10321,6 +10351,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .w-md-auto {
+    width: auto !important;
+  }
   .float-md-start {
     float: left !important;
   }
@@ -11048,6 +11081,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+
   .float-lg-start {
     float: left !important;
   }
@@ -14014,7 +14048,10 @@ button:not(:disabled) {
   border: 0;
 }
 .card .card-body {
+  height: 100%;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-primary .dropdown-menu .dropdown-item:hover, .dropdown-primary .dropdown-menu .dropdown-item.active, .dropdown-primary .dropdown-menu .dropdown-item:active, .dropdown-primary .dropdown-menu .dropdown-item.focus, .dropdown-primary .dropdown-menu .dropdown-item:focus {

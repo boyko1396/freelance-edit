@@ -133,17 +133,22 @@ p {
 }
 #topnav .navbar-toggle span {
   height: 2px;
-  width: 100%;
-  background-color: #212529;
+  margin-top: -1px;
   display: block;
-  margin-bottom: 5px;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transition: all .4s;
 }
-#topnav .navbar-toggle span:last-child {
-  margin-bottom: 0;
+#topnav .navbar-toggle span:nth-child(1) {
+  background: #00B2A4;
+  width: 100%;
+  transform: translateY(-4px);
+}
+#topnav .navbar-toggle span:nth-child(2) {
+  background: #069488;
+  width: 54%;
+  transform: translateY(4px);
 }
 #topnav .buy-button {
   float: right;
@@ -190,25 +195,14 @@ p {
 #topnav .buy-menu-btn .dropdown .dropdown-toggle:after {
   display: none;
 }
-#topnav .navbar-toggle.open span {
-  position: absolute;
-}
-#topnav .navbar-toggle.open span:first-child {
-  top: 6px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-#topnav .navbar-toggle.open span:nth-child(2) {
-  visibility: hidden;
-}
-#topnav .navbar-toggle.open span:last-child {
-  width: 100%;
-  top: 6px;
+#topnav .navbar-toggle.open span:nth-child(1) {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-#topnav .navbar-toggle.open span:hover {
-  background-color: #00B2A4;
+#topnav .navbar-toggle.open span:nth-child(2) {
+  width: 100%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 #topnav .navbar-toggle:hover, #topnav .navbar-toggle:focus,
 #topnav .navbar-toggle .navigation-menu > li > a:hover, #topnav .navbar-toggle:focus {

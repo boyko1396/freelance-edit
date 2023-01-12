@@ -1,0 +1,45 @@
+.line-height-1 {
+  line-height: 1;
+}
+
+.saas-feature-shape-right:after {
+  top: 50%;
+  right: initial;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+  .bg-half-200 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .bg-half-200 > .container > .row {
+    min-height: calc(100vh - 74px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .saas-feature-shape-right {
+    padding-bottom: 30px;
+    position: relative;
+  }
+  .saas-feature-shape-right:after {
+    width: 140vw;
+    height: 140vw;
+    top: -80px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    z-index: -1;
+  }
+}

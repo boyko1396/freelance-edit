@@ -26,7 +26,7 @@
 }
 
 .bg-half-200 {
-  padding: 220px 0;
+  padding: 180px 0;
   margin-bottom: 60px;
   background-size: cover;
   -ms-flex-item-align: center;
@@ -62,16 +62,20 @@
     height: 25rem;
     border-radius: 10rem;
   }
-	
-	.saas-feature-shape-right:after {
-	  right: -17rem;
-	}
-	.saas-feature-shape-right:after {
-	  top: -35rem;
-	  width: 75rem;
-	  height: 75rem;
-	  border-radius: 100%;
-	  -webkit-transform: rotate(145deg);
-			  transform: rotate(145deg);
-	}
+  .saas-feature-shape-right:after {
+    right: -17rem;
+  }
+  .saas-feature-shape-right:after {
+    top: -35rem;
+    width: 75rem;
+    height: 75rem;
+    border-radius: 100%;
+    -webkit-transform: rotate(145deg);
+        transform: rotate(145deg);
+  }
+}
+@media (max-width: 991px) {
+  .font-72 {
+    font-size: 54px;
+  }
 }
