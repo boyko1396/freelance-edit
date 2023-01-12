@@ -1,0 +1,77 @@
+.font-72 {
+	font-size: 72px;
+	font-weight: 900;
+}
+.p-20 {
+	padding: 9rem;
+}
+.hero-lh {
+	line-height: 1.5rem;
+}
+.img-wrap {
+  position: relative;
+}
+
+.img-wrap h5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+	.d-none-m {
+		display: none;
+	}
+}
+
+.bg-half-200 {
+  padding: 220px 0;
+  margin-bottom: 60px;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  .bg-half-200 {
+    padding: 150px 0;
+    margin-bottom: 35px;
+    height: auto;
+  }
+}
+
+.saas-feature-shape-right:after {
+  right: -45rem;
+}
+
+.saas-feature-shape-right:after {
+  top: -35rem;
+  width: 75rem;
+  height: 75rem;
+  border-radius: 100%;
+  -webkit-transform: rotate(145deg);
+          transform: rotate(145deg);
+}
+@media (max-width: 767px) {
+  .saas-feature-shape-right:after {
+    bottom: -1rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10rem;
+  }
+	
+	.saas-feature-shape-right:after {
+	  right: -17rem;
+	}
+	.saas-feature-shape-right:after {
+	  top: -35rem;
+	  width: 75rem;
+	  height: 75rem;
+	  border-radius: 100%;
+	  -webkit-transform: rotate(145deg);
+			  transform: rotate(145deg);
+	}
+}
